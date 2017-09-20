@@ -1,4 +1,4 @@
-#  Authors:  Peter Elliott and Sam Ventura
+#  Authors:  Peter Elliott and Sam Ventura and Matey Neykov
 library(ggplot2)
 
 # creates StatMosaic object
@@ -17,10 +17,15 @@ StatMosaic <- ggproto("StatMosaic", Stat,
                         tab <- table(data$x, data$y)
                         # normalizes row sums
                         prop.tab <- sweep(tab, 1, rowSums(tab), FUN ="/")
-                        
                         # assignments colors to fields based on residuals
                         expected <- outer(rowSums(tab),colSums(tab))/sum(tab)
-                        std_resid <- (tab-expected)/sqrt(expected)
+                        # this standardizes the residuals to have a N(0,1) dist
+                        standardization <- outer((1 - rowSums(tab)/sum(tab)),
+                          (1 - colSums(tab)/sum(tab)))
+                        std_resid <- (tab-expected)/
+                          sqrt(expected*standardization)
+                        # unstrandardized residual
+                        # std_resid <- (tab-expected)/sqrt(expected)
                         resid_cat <- ifelse(std_resid>4, "r > 4",
                                             ifelse(std_resid>2, "2 < r < 4",
                                                    ifelse(std_resid> -2, "-2 < r < 2",
