@@ -1,13 +1,15 @@
-This data consists of the percentage composition of 8 fatty acids (palmitic, palmitoleic, stearic, oleic, linoleic,
-linolenic, arachidic, eicosenoic) found in the lipid fraction of 572 Italian olive oils. (An analysis of this data is
-given in (Forina, Armanino, Lanteri & Tiscornia 1983)). There are 9 collection areas, 4 from southern Italy
-(North and South Apulia, Calabria, Sicily), two from Sardinia (Inland and Coastal) and 3 from northern
-Italy (Umbria, East and West Liguria).
+This data consists of the percentage composition of 8 fatty acids (palmitic, palmitoleic, stearic, oleic, linoleic,linolenic, arachidic, eicosenoic) found in the lipid fraction of 572 Italian olive oils. (An analysis of this data is given in (Forina, Armanino, Lanteri & Tiscornia 1983)). 
+
+There are 9 collection regions, 4 from southern Italy
+(North and South Apulia, Calabria, Sicily), 3 from northern Italy (Umbria, East and West Liguria) and 2 from Sardinia (Inland and Coastal).
 The data available are:
-Region South, North or Sardinia
-Area Sub-regions within the larger regions (North and South Apulia,
+
+Areas: South, North or Sardinia
+
+Sub-regions within the larger areas: (North and South Apulia,
 Calabria, Sicily, Inland and Coastal Sardinia, Umbria, East and
 West Liguria
+
 Palmitic Acid Percentage ×100 in sample
 Palmitoleic Acid Percentage ×100 in sample
 Stearic Acid Percentage ×100 in sample
