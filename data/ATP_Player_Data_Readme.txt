@@ -1,6 +1,7 @@
 Notes for Tennis Data (Player Edition)
 
-All data is in csv format, ready for use within standard spreadsheet applications. 
+This data set is a transformation of the original dataset. Instead of game oriented, this dataset is player oriented. For each player we list all games, their opponent and whether the player won or lost (`WinLoss`) and the standard summary information, switching from the "Winner"/"Loser" paradigm to a "Player"/"Opponent" paradigm. As such you'll find twice as many observations in this dataset as the original (2 players per game).
+
 
 Key to results data:
 
