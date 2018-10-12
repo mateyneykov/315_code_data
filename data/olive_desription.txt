@@ -4,7 +4,7 @@ There are 9 collection regions, 4 from southern Italy
 (North and South Apulia, Calabria, Sicily), 3 from northern Italy (Umbria, East and West Liguria) and 2 from Sardinia (Inland and Coastal).
 The data available are:
 
-Areas: South, North or Sardinia
+Areas: South, Sardinia or North
 
 Sub-regions within the larger areas: (North and South Apulia,
 Calabria, Sicily, Inland and Coastal Sardinia, Umbria, East and
