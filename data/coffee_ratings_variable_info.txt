@@ -1,0 +1,21 @@
+|variable              |class     |description |
+|:---------------------|:---------|:-----------|
+|total_cup_points      |double    | Total rating/points (0 - 100 scale) |
+|species               |character | Species of coffee bean (arabica or robusta) |
+|country_of_origin     |character | Where the bean came from |
+|variety               |character | Variety of the beans |
+|processing_method     |character | Method for processing|
+|aroma                 |double    | Aroma grade |
+|flavor                |double    | Flavor grade |
+|aftertaste            |double    | Aftertaste grade |
+|acidity               |double    | Acidity grade |
+|body                  |double    | Body grade |
+|balance               |double    | Balance grade |
+|uniformity            |double    | Uniformity grade |
+|clean_cup             |double    | Clean cup grade |
+|sweetness             |double    | Sweetness grade |
+|cupper_points         |double    | Cupper Points|
+|moisture              |double    | Moisture Grade|
+|quakers               |double    | quakers|
+|color                 |character | Color of bean |
+|altitude_mean_meters  |double    | Altitude mean meters |
